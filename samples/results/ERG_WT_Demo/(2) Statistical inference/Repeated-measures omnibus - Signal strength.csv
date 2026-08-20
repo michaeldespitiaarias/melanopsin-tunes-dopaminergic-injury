@@ -1,0 +1,4 @@
+Family,Source,engine,normality test,normality p (worst cell),normality significance,homoscedasticity test,homoscedasticity p,homoscedasticity significance,F,ddof1,ddof2,p_unc,p_GG_corr,significance,eps,generalized_eta_sq,significant
+Signal strength,Group,ART,Shapiro-Wilk,0.0117,*,Levene,0.4142,ns,398.9148,1,7,0.0,0.0,***,1.0,0.7504,True
+Signal strength,Level,ART,Shapiro-Wilk,0.0117,*,Levene,0.4142,ns,150.707,3,21,0.0,0.0,***,0.6303,0.9379,True
+Signal strength,Group * Level,ART,Shapiro-Wilk,0.0117,*,Levene,0.4142,ns,175.7222,3,21,0.0,0.0,***,0.5666,0.8553,True

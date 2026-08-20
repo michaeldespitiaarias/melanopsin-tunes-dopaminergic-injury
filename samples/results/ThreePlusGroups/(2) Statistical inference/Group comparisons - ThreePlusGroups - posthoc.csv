@@ -1,0 +1,4 @@
+variable,group_a,group_b,test,statistic,p_value,p_adjusted,posthoc_method,effect_size,effect_name,ci_low,ci_high,significant
+Marker_pct,Control,TreatmentA,Tukey HSD,-10.470996,1.6e-05,3.184040143644484e-05,Tukey HSD,-2.246902,Cohen's d,-15.432661,-5.50933,True
+Marker_pct,Control,TreatmentB,Tukey HSD,1.373063,0.500491,0.7772212461138073,Tukey HSD,0.279654,Cohen's d,-3.588602,6.334728,False
+Marker_pct,TreatmentA,TreatmentB,Tukey HSD,11.844059,1.6e-05,4.319364589333574e-06,Tukey HSD,2.24751,Cohen's d,6.882393,16.805724,True

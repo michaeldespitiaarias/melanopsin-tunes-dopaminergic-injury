@@ -1,0 +1,5 @@
+Level,group 1,group 2,n (group 1),n (group 2),mean (group 1),SD (group 1),mean (group 2),SD (group 2),normality test,normality p (group 1),normality significance (group 1),normality p (group 2),normality significance (group 2),test,p_value,effect size metric,effect size value,Hedges g,p_value_holm,significant_holm,significance
+Level1,Treated,Baseline,8,8,9.581,1.314,9.642,2.268,Shapiro-Wilk,0.0473,*,0.0117,*,Wilcoxon signed-rank test,0.382812,r,0.309,-0.022,0.382812,False,ns
+Level2,Treated,Baseline,8,8,17.744,2.586,18.783,2.303,Shapiro-Wilk,0.5256,ns,0.693,ns,Paired t-test,0.009058,Cohen's dz,-1.263,-1.123,0.018116,True,*
+Level3,Treated,Baseline,8,8,17.316,2.618,29.527,2.537,Shapiro-Wilk,0.9249,ns,0.6722,ns,Paired t-test,0.0,Cohen's dz,-9.605,-8.537,0.0,True,***
+Level4,Treated,Baseline,8,8,22.198,2.18,39.988,1.358,Shapiro-Wilk,0.6643,ns,0.2034,ns,Paired t-test,0.0,Cohen's dz,-14.385,-12.787,0.0,True,***

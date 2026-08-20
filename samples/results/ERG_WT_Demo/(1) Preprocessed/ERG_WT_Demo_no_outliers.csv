@@ -1,0 +1,17 @@
+Subject,Genotype,Group,Signal (Level1),Signal (Level2),Signal (Level3),Signal (Level4),Signal (Level1)_outlier
+1,WT,Treated,10.803,21.01,21.122,24.84,False
+1,WT,Baseline,12.301,21.835,31.815,41.822,True
+2,WT,Treated,11.016,16.47,16.471,23.965,False
+2,WT,Baseline,10.569,17.949,29.43,39.722,False
+3,WT,Treated,6.696,17.01,18.215,20.935,False
+3,WT,Baseline,9.721,17.766,29.148,39.458,False
+4,WT,Treated,9.575,14.462,16.442,22.325,False
+4,WT,Baseline,10.362,17.162,27.696,39.289,False
+5,WT,Treated,9.822,18.367,15.608,18.779,False
+5,WT,Baseline,9.383,18.681,28.153,38.573,False
+6,WT,Treated,9.789,21.365,19.824,22.219,False
+6,WT,Baseline,10.27,21.695,31.972,40.339,False
+7,WT,Treated,9.681999999999999,14.729,12.7,20.04,False
+7,WT,Baseline,4.455,15.129,25.267,38.574,True
+8,WT,Treated,9.266,18.541,18.145,24.483,False
+8,WT,Baseline,10.075,20.05,32.735,42.127,False

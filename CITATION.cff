@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the Zenodo DOI of the specific
+  release used, not this repository generically — see the "version" and
+  "identifiers" fields below, filled in at release time.
+title: "Analysis code for: Melanopsin tunes the retinal response to dopaminergic injury induced by 6-OHDA"
+type: software
+authors:
+  - family-names: "Espitia Arias"
+    given-names: "Michael D."
+    email: esspitia@gmail.com
+repository-code: "https://github.com/michaeldespitiaarias/melanopsin-tunes-dopaminergic-injury"
+identifiers:
+  - type: doi
+    value: "TODO: 10.5281/zenodo.XXXXXXX"  # TODO: fill in at Zenodo archival time
+    description: "Zenodo archive of the release cited by the paper"
+license: PolyForm-Noncommercial-1.0.0
+version: "0.0.0"  # TODO: set to the tagged release version (e.g. v1.0.0) at Zenodo archival time
+date-released: "TODO"  # TODO: set at release time, ISO 8601 (YYYY-MM-DD)
+preferred-citation:
+  type: article
+  title: "Melanopsin tunes the retinal response to dopaminergic injury induced by 6-OHDA"
+  # Author order matches the manuscript byline. Espitia Arias and Paleo
+  # (positions 1-2) are co-first authors -- the CFF 1.2.0 schema has no
+  # field for equal contribution, so it's recorded here as a comment;
+  # carry the same note into any venue-specific citation export that does
+  # support it (e.g. a footnote/equal-contribution flag in the journal's
+  # own submission system). de la Villa (last position) is the
+  # corresponding author.
+  authors:
+    - family-names: "Espitia Arias"
+      given-names: "Michael D."
+    - family-names: "Paleo"
+      given-names: "Víctor"
+    - family-names: "Casarejos Fernández"
+      given-names: "María José"
+    - family-names: "Vaquero"
+      given-names: "Cecilia F."
+    - family-names: "Dumitru Iordache"
+      given-names: "Adina Stefania"
+    - family-names: "Alcacer"
+      given-names: "Cristina"
+    - family-names: "Germain"
+      given-names: "Francisco"
+    - family-names: "Mansilla Aparicio"
+      given-names: "Alicia"
+    - family-names: "de la Villa"
+      given-names: "Pedro"
+  year: 2026
+  journal: "TODO: journal name"
+  # doi: "TODO: paper DOI, once assigned"

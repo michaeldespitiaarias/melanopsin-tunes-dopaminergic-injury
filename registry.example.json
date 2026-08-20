@@ -1,0 +1,80 @@
+{
+  "layout": {
+    "input_dir": "input",
+    "results_dir": "results",
+    "table_prefix": "Group comparisons"
+  },
+  "datasets": {
+    "TwoOrMoreGroups": {
+      "group_column": [
+        "Condition"
+      ],
+      "trial_column": "Trial",
+      "subject_column": "Subject",
+      "paired": true
+    },
+    "ThreePlusGroups": {
+      "group_column": [
+        "Group"
+      ],
+      "subject_column": "Subject",
+      "paired": false
+    },
+    "GenotypeStudy": {
+      "group_column": [
+        "Genotype",
+        "Group"
+      ],
+      "subject_column": "Subject"
+    },
+    "GenotypeStudy_WT": {
+      "group_column": [
+        "Group"
+      ],
+      "subject_column": "Subject",
+      "paired": true
+    },
+    "GenotypeStudy_KO": {
+      "group_column": [
+        "Group"
+      ],
+      "subject_column": "Subject",
+      "paired": true
+    },
+    "GenotypeStudy_Ratio": {
+      "group_column": [
+        "Genotype"
+      ],
+      "subject_column": "Subject",
+      "paired": false
+    }
+  },
+  "derived_datasets": {
+    "GenotypeStudy_WT": {
+      "kind": "split",
+      "source": "GenotypeStudy",
+      "genotype_column": "Genotype",
+      "genotype_value": "WT"
+    },
+    "GenotypeStudy_KO": {
+      "kind": "split",
+      "source": "GenotypeStudy",
+      "genotype_column": "Genotype",
+      "genotype_value": "KO"
+    },
+    "GenotypeStudy_Ratio": {
+      "kind": "ratio",
+      "source": "GenotypeStudy",
+      "group_column": "Group",
+      "reference_group": "Baseline",
+      "target_group": "Treated",
+      "genotype_column": "Genotype",
+      "genotype_values": [
+        "WT",
+        "KO"
+      ],
+      "subject_column": "Subject",
+      "paired": true
+    }
+  }
+}
