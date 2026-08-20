@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use this software, please cite the Zenodo DOI of the specific
   release used, not this repository generically — see the "version" and
-  "identifiers" fields below, filled in at release time.
+  "identifiers" fields below.
 title: "Analysis code for: Melanopsin tunes the retinal response to dopaminergic injury induced by 6-OHDA"
 type: software
 authors:
@@ -12,11 +12,11 @@ authors:
 repository-code: "https://github.com/michaeldespitiaarias/melanopsin-tunes-dopaminergic-injury"
 identifiers:
   - type: doi
-    value: "TODO: 10.5281/zenodo.XXXXXXX"  # TODO: fill in at Zenodo archival time
-    description: "Zenodo archive of the release cited by the paper"
+    value: 10.5281/zenodo.22027874
+    description: "Zenodo archive of release v1.0.0, the version cited by the paper"
 license: PolyForm-Noncommercial-1.0.0
-version: "0.0.0"  # TODO: set to the tagged release version (e.g. v1.0.0) at Zenodo archival time
-date-released: "TODO"  # TODO: set at release time, ISO 8601 (YYYY-MM-DD)
+version: "v1.0.0"
+date-released: "2026-08-20"
 preferred-citation:
   type: article
   title: "Melanopsin tunes the retinal response to dopaminergic injury induced by 6-OHDA"

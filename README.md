@@ -1,5 +1,7 @@
 # Analysis code for: Melanopsin tunes the retinal response to dopaminergic injury induced by 6-OHDA
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22027874.svg)](https://doi.org/10.5281/zenodo.22027874)
+
 Analysis code accompanying **"Melanopsin tunes the retinal response to
 dopaminergic injury induced by 6-OHDA"**. It extends the statistical framework developed for
 [amacrine-motion-detection](../amacrine-motion-detection/) — "Dopaminergic amacrine cells
